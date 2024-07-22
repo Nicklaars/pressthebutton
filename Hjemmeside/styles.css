@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://papers.co/wallpaper/papers.co-sg39-pink-purple-combination-inside-gradation-blur-35-3840x2160-4k-wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    max-width: 450px;
+    width: 90%;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#counter {
+    color: #555; /* Neutral gray */
+    font-weight: 700;
+}
+
+button {
+    background: none; /* Remove default button styling */
+    border: none; /* Remove default button border */
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s;
+    outline: none;
+    display: inline-block; /* Ensures the image fits properly */
+}
+
+button img {
+    display: block;
+    width: 125px; /* Very slightly larger size */
+    height: auto;
+}
+
+button:hover img {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+button:active img {
+    transform: scale(0.95); /* Slightly shrink on click */
+}
